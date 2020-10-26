@@ -1,0 +1,1479 @@
+{
+  "expected": {
+    "allumé_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lumière dans la chambre à coucher",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on la lumière dans la chambre à coucher",
+      "raw_text": "allumé la lumière dans la chambre à coucher",
+      "recognize_seconds": 0.00034165382385253906,
+      "tokens": [
+        "on",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "allumé_la_lampe_de_salon.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lampe de salon",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on la lampe de salon",
+      "raw_text": "allumé la lampe de salon",
+      "recognize_seconds": 0.0003254413604736328,
+      "tokens": [
+        "on",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "estelle_ouverte_ou_fermée_la_porte_de_garage.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "est elle ouverte ou fermée la porte de garage",
+      "raw_text": "est elle ouverte ou fermée la porte de garage",
+      "recognize_seconds": 0.0002751350402832031,
+      "tokens": [
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "raw_tokens": [
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "il_est_quelle_heure.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "il est quelle heure",
+      "raw_text": "il est quelle heure",
+      "recognize_seconds": 0.00024437904357910156,
+      "tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "raw_tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "éteindre_la_lampe_de_salon.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lampe de salon",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off la lampe de salon",
+      "raw_text": "éteindre la lampe de salon",
+      "recognize_seconds": 0.00030040740966796875,
+      "tokens": [
+        "off",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "la_porte_de_garage_estelle_ouverte_ou_fermée.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "la porte de garage est elle ouverte ou fermée",
+      "raw_text": "la porte de garage est elle ouverte ou fermée",
+      "recognize_seconds": 0.0002970695495605469,
+      "tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "raw_tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "estce_que_la_porte_de_garage_est_ouverte_ou_fermée.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "est-ce-que la porte de garage est ouverte ou fermée",
+      "raw_text": "est-ce-que la porte de garage est ouverte ou fermée",
+      "recognize_seconds": 0.00029850006103515625,
+      "tokens": [
+        "est-ce-que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "raw_tokens": [
+        "est-ce-que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "allumé_léclairage_de_garage.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "l'éclairage de garage",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on l'éclairage de garage",
+      "raw_text": "allumé l'éclairage de garage",
+      "recognize_seconds": 0.00029921531677246094,
+      "tokens": [
+        "on",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "raw_tokens": [
+        "allumé",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "éteindre_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lumière dans la chambre à coucher",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off la lumière dans la chambre à coucher",
+      "raw_text": "éteindre la lumière dans la chambre à coucher",
+      "recognize_seconds": 0.00033664703369140625,
+      "tokens": [
+        "off",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "quelle_heure_estil.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "quelle heure est il",
+      "raw_text": "quelle heure est il",
+      "recognize_seconds": 0.00024962425231933594,
+      "tokens": [
+        "quelle",
+        "heure",
+        "est",
+        "il"
+      ],
+      "raw_tokens": [
+        "quelle",
+        "heure",
+        "est",
+        "il"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "éteindre_léclairage_de_garage.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "l'éclairage de garage",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off l'éclairage de garage",
+      "raw_text": "éteindre l'éclairage de garage",
+      "recognize_seconds": 0.00029587745666503906,
+      "tokens": [
+        "off",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "raw_tokens": [
+        "éteindre",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "quelle_est_la_température.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "quelle est la température",
+      "raw_text": "quelle est la température",
+      "recognize_seconds": 0.0002503395080566406,
+      "tokens": [
+        "quelle",
+        "est",
+        "la",
+        "température"
+      ],
+      "raw_tokens": [
+        "quelle",
+        "est",
+        "la",
+        "température"
+      ],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
+  },
+  "actual": {
+    "allumé_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lumière dans la chambre à coucher",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on la lumière dans la chambre à coucher",
+      "raw_text": "allumé la lumière dans la chambre à coucher",
+      "recognize_seconds": 0.0006791150000253765,
+      "tokens": [
+        "on",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "wav_seconds": 2.562125,
+      "transcribe_seconds": 0.6833282100000133,
+      "speech_confidence": null,
+      "wav_name": "allumé_la_lumière_dans_la_chambre_à_coucher.wav",
+      "expected_intent_name": "ChangeLightState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "allumé",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "hypothesis": [
+          "allumé",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "differences": [
+          "allumé",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "words": 8,
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "allumé_la_lampe_de_salon.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lampe de salon",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on la lampe de salon",
+      "raw_text": "allumé la lampe de salon",
+      "recognize_seconds": 0.0012950630000432284,
+      "tokens": [
+        "on",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "raw_tokens": [
+        "allumé",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "wav_seconds": 1.7656875,
+      "transcribe_seconds": 0.6217223339999691,
+      "speech_confidence": null,
+      "wav_name": "allumé_la_lampe_de_salon.wav",
+      "expected_intent_name": "ChangeLightState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "allumé",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "hypothesis": [
+          "allumé",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "differences": [
+          "allumé",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "estelle_ouverte_ou_fermée_la_porte_de_garage.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "est elle ouverte ou fermée la porte de garage",
+      "raw_text": "est elle ouverte ou fermée la porte de garage",
+      "recognize_seconds": 0.0004913989999977275,
+      "tokens": [
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "raw_tokens": [
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée",
+        "la",
+        "porte",
+        "de",
+        "garage"
+      ],
+      "wav_seconds": 2.760625,
+      "transcribe_seconds": 0.7069534849999854,
+      "speech_confidence": null,
+      "wav_name": "estelle_ouverte_ou_fermée_la_porte_de_garage.wav",
+      "expected_intent_name": "GetGarageState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "est",
+          "elle",
+          "ouverte",
+          "ou",
+          "fermée",
+          "la",
+          "porte",
+          "de",
+          "garage"
+        ],
+        "hypothesis": [
+          "est",
+          "elle",
+          "ouverte",
+          "ou",
+          "fermée",
+          "la",
+          "porte",
+          "de",
+          "garage"
+        ],
+        "differences": [
+          "est",
+          "elle",
+          "ouverte",
+          "ou",
+          "fermée",
+          "la",
+          "porte",
+          "de",
+          "garage"
+        ],
+        "words": 9,
+        "errors": 0,
+        "matches": 9,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "il_est_quelle_heure.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "il est quelle heure",
+      "raw_text": "il est quelle heure",
+      "recognize_seconds": 0.00034876100005476474,
+      "tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "raw_tokens": [
+        "il",
+        "est",
+        "quelle",
+        "heure"
+      ],
+      "wav_seconds": 0.94875,
+      "transcribe_seconds": 0.5673184429999765,
+      "speech_confidence": null,
+      "wav_name": "il_est_quelle_heure.wav",
+      "expected_intent_name": "GetTime",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "hypothesis": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "differences": [
+          "il",
+          "est",
+          "quelle",
+          "heure"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "éteindre_la_lampe_de_salon.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lampe de salon",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off la lampe de salon",
+      "raw_text": "éteindre la lampe de salon",
+      "recognize_seconds": 0.0010054379999928642,
+      "tokens": [
+        "off",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lampe",
+        "de",
+        "salon"
+      ],
+      "wav_seconds": 1.8169375,
+      "transcribe_seconds": 0.6242904490000001,
+      "speech_confidence": null,
+      "wav_name": "éteindre_la_lampe_de_salon.wav",
+      "expected_intent_name": "ChangeLightState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "éteindre",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "hypothesis": [
+          "éteindre",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "differences": [
+          "éteindre",
+          "la",
+          "lampe",
+          "de",
+          "salon"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "la_porte_de_garage_estelle_ouverte_ou_fermée.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "la porte de garage est elle ouverte ou fermée",
+      "raw_text": "la porte de garage est elle ouverte ou fermée",
+      "recognize_seconds": 0.0005142510000268885,
+      "tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "raw_tokens": [
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "elle",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "wav_seconds": 2.867875,
+      "transcribe_seconds": 0.7226051719999305,
+      "speech_confidence": null,
+      "wav_name": "la_porte_de_garage_estelle_ouverte_ou_fermée.wav",
+      "expected_intent_name": "GetGarageState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "elle",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "hypothesis": [
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "elle",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "differences": [
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "elle",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "words": 9,
+        "errors": 0,
+        "matches": 9,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "estce_que_la_porte_de_garage_est_ouverte_ou_fermée.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "est-ce-que la porte de garage est ouverte ou fermée",
+      "raw_text": "est-ce-que la porte de garage est ouverte ou fermée",
+      "recognize_seconds": 0.0006439640000053259,
+      "tokens": [
+        "est-ce-que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "raw_tokens": [
+        "est-ce-que",
+        "la",
+        "porte",
+        "de",
+        "garage",
+        "est",
+        "ouverte",
+        "ou",
+        "fermée"
+      ],
+      "wav_seconds": 3.0151875,
+      "transcribe_seconds": 0.7106036379999523,
+      "speech_confidence": null,
+      "wav_name": "estce_que_la_porte_de_garage_est_ouverte_ou_fermée.wav",
+      "expected_intent_name": "GetGarageState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "est-ce-que",
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "hypothesis": [
+          "est-ce-que",
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "differences": [
+          "est-ce-que",
+          "la",
+          "porte",
+          "de",
+          "garage",
+          "est",
+          "ouverte",
+          "ou",
+          "fermée"
+        ],
+        "words": 9,
+        "errors": 0,
+        "matches": 9,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "allumé_léclairage_de_garage.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "l'éclairage de garage",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on l'éclairage de garage",
+      "raw_text": "allumé l'éclairage de garage",
+      "recognize_seconds": 0.00042266000002655346,
+      "tokens": [
+        "on",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "raw_tokens": [
+        "allumé",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "wav_seconds": 1.9378125,
+      "transcribe_seconds": 0.6387954379999883,
+      "speech_confidence": null,
+      "wav_name": "allumé_léclairage_de_garage.wav",
+      "expected_intent_name": "ChangeLightState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "allumé",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "hypothesis": [
+          "allumé",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "differences": [
+          "allumé",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "éteindre_la_lumière_dans_la_chambre_à_coucher.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "la lumière dans la chambre à coucher",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off la lumière dans la chambre à coucher",
+      "raw_text": "éteindre la lumière dans la chambre à coucher",
+      "recognize_seconds": 0.0006249379999871962,
+      "tokens": [
+        "off",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "raw_tokens": [
+        "éteindre",
+        "la",
+        "lumière",
+        "dans",
+        "la",
+        "chambre",
+        "à",
+        "coucher"
+      ],
+      "wav_seconds": 2.6883125,
+      "transcribe_seconds": 0.6985703949999333,
+      "speech_confidence": null,
+      "wav_name": "éteindre_la_lumière_dans_la_chambre_à_coucher.wav",
+      "expected_intent_name": "ChangeLightState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "éteindre",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "hypothesis": [
+          "éteindre",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "differences": [
+          "éteindre",
+          "la",
+          "lumière",
+          "dans",
+          "la",
+          "chambre",
+          "à",
+          "coucher"
+        ],
+        "words": 8,
+        "errors": 0,
+        "matches": 8,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "quelle_heure_estil.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "quelle heure est il",
+      "raw_text": "quelle heure est il",
+      "recognize_seconds": 0.0005325340000581491,
+      "tokens": [
+        "quelle",
+        "heure",
+        "est",
+        "il"
+      ],
+      "raw_tokens": [
+        "quelle",
+        "heure",
+        "est",
+        "il"
+      ],
+      "wav_seconds": 1.0114375,
+      "transcribe_seconds": 0.5598973059999253,
+      "speech_confidence": null,
+      "wav_name": "quelle_heure_estil.wav",
+      "expected_intent_name": "GetTime",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "quelle",
+          "heure",
+          "est",
+          "il"
+        ],
+        "hypothesis": [
+          "quelle",
+          "heure",
+          "est",
+          "il"
+        ],
+        "differences": [
+          "quelle",
+          "heure",
+          "est",
+          "il"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "éteindre_léclairage_de_garage.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "l'éclairage de garage",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off l'éclairage de garage",
+      "raw_text": "éteindre l'éclairage de garage",
+      "recognize_seconds": 0.0004668919999630816,
+      "tokens": [
+        "off",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "raw_tokens": [
+        "éteindre",
+        "l'éclairage",
+        "de",
+        "garage"
+      ],
+      "wav_seconds": 2.0468125,
+      "transcribe_seconds": 0.6675890700000764,
+      "speech_confidence": null,
+      "wav_name": "éteindre_léclairage_de_garage.wav",
+      "expected_intent_name": "ChangeLightState",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "éteindre",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "hypothesis": [
+          "éteindre",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "differences": [
+          "éteindre",
+          "l'éclairage",
+          "de",
+          "garage"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "quelle_est_la_température.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "quelle est la température",
+      "raw_text": "quelle est la température",
+      "recognize_seconds": 0.00037069399991196406,
+      "tokens": [
+        "quelle",
+        "est",
+        "la",
+        "température"
+      ],
+      "raw_tokens": [
+        "quelle",
+        "est",
+        "la",
+        "température"
+      ],
+      "wav_seconds": 1.4678125,
+      "transcribe_seconds": 0.6090560390000519,
+      "speech_confidence": null,
+      "wav_name": "quelle_est_la_température.wav",
+      "expected_intent_name": "GetTemperature",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "quelle",
+          "est",
+          "la",
+          "température"
+        ],
+        "hypothesis": [
+          "quelle",
+          "est",
+          "la",
+          "température"
+        ],
+        "differences": [
+          "quelle",
+          "est",
+          "la",
+          "température"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    }
+  },
+  "num_wavs": 12,
+  "num_words": 73,
+  "num_intents": 12,
+  "num_entities": 12,
+  "correct_transcriptions": 12,
+  "correct_intent_names": 12,
+  "correct_words": 73,
+  "correct_entities": 12,
+  "correct_intent_and_entities": 12,
+  "transcription_accuracy": 1,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 3.1211155139207647
+}
