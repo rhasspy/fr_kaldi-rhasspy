@@ -10,7 +10,7 @@ Includes:
     * Trained on:
         * [Common Voice](https://commonvoice.mozilla.org) (549 hours)
         * [M-AILabs](https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/) (190 hours)
-        * [Voxforge](https://www.caito.de/2019/01/the-m-ailabs-speech-dataset/) (37 hours)
+        * [Voxforge](http://voxforge.org/fr) (37 hours)
         * [SIWIS](https://datashare.is.ed.ac.uk/handle/10283/2353) (10 hours)
 * An [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) pronunciation lexicon based on [Paul Guyot's lexicon](https://github.com/pguyot/zamia-speech/releases)
     * See `base_dictionary.txt.gz`
