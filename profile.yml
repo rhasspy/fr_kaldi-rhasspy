@@ -24,6 +24,9 @@ training:
     - !env "${profile_dir}/g2p.fst"
     - !env "${profile_dir}/g2p.corpus"
     - !env "${profile_dir}/acoustic_model/model/graph/HCLG.fst"
+    - !env "${profile_dir}/acoustic_model/base_graph/words.txt"
+    - !env "${profile_dir}/acoustic_model/base_graph/phones/align_lexicon.txt"
+    - !env "${profile_dir}/acoustic_model/base_graph/phones/align_lexicon.int"
 
 text-to-speech:
   espeak:
